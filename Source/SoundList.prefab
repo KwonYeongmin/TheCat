@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8702767593981262110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4086000910636548011}
+  - component: {fileID: -7748178396971442248}
+  m_Layer: 0
+  m_Name: SoundList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4086000910636548011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702767593981262110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7748178396971442248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702767593981262110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a70d84538fb4f56a1097db3f6ba236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainBGM: {fileID: 8300000, guid: 06976f4e9b08f844a9dcc654c4b389d1, type: 3}
+  intro_In: {fileID: 8300000, guid: fd0e2a726ebb96240ba204187146b086, type: 3}
+  intro_Out: {fileID: 8300000, guid: 3267c92e3ef8d5546b31dceb167fd1bd, type: 3}
+  chapter1_In: {fileID: 8300000, guid: 44db388991daa064a950afddd05412cf, type: 3}
+  chapter1_Out: {fileID: 8300000, guid: 733eb759991069c4db651fb9d1d4aaa3, type: 3}
+  chapter2_In: {fileID: 8300000, guid: 74834b6c17b651446b23c9802310859f, type: 3}
+  chapter2_Out: {fileID: 8300000, guid: dc00a211c79c35a46afa8d7fa6ee37d6, type: 3}
+  chapter2_Rain: {fileID: 8300000, guid: cc5d01cfa222ab745a19788a18ddaf35, type: 3}
+  chapter2_Guitar: {fileID: 8300000, guid: bb17be421985cc5459295283ace52823, type: 3}
+  chapter2_Clock: {fileID: 8300000, guid: b57e20ff12bd81b4daf692d204b6d736, type: 3}
+  chapter3_In: {fileID: 8300000, guid: 7710fe8b877f9d343b290e48a29fc3af, type: 3}
+  chapter3_Out: {fileID: 8300000, guid: 43cbb154e80a51f42974272c136b4bf6, type: 3}
+  sound_Meteor: {fileID: 8300000, guid: 9aaf3dc8572520146a4a8472cf04c4ea, type: 3}
+  sound_Swipe: {fileID: 8300000, guid: b9aa061e149e3294d8197222b0041337, type: 3}
+  sound_PhoneDown: {fileID: 8300000, guid: d993c1e57b602c9419b19262fb6fda22, type: 3}
+  sound_Phew: {fileID: 8300000, guid: 6f52e03193c4fb3409d47f47f8e809fa, type: 3}
+  sound_Navi: {fileID: 8300000, guid: 1d5efcbaad144364abaac50fda51bdb1, type: 3}
+  sound_Radio: {fileID: 8300000, guid: 0e7b7f72cd5f1d543aa1697f4acf81c1, type: 3}
+  sound_Light: {fileID: 8300000, guid: 1a23db8df361d4542af60be4240c51c1, type: 3}
+  sound_UnknowncCat: {fileID: 8300000, guid: 1d5efcbaad144364abaac50fda51bdb1, type: 3}
+  sound_WatertankCrack: {fileID: 8300000, guid: 409484c4fb56cd540ba2a92135db339c,
+    type: 3}
+  sound_Gogo_Eyeopen: {fileID: 8300000, guid: dab4265bf2cf19548ab014e736b940a6, type: 3}
+  sound_Sunhwa_Eyeopen: {fileID: 8300000, guid: 9553e77e19e79f94ca9bbd22be5776f6,
+    type: 3}
+  sound_RiverSFX: {fileID: 8300000, guid: 18d4d3ae2c1c270408f038e7306b06be, type: 3}
+  sound_Spinx: {fileID: 8300000, guid: d86c57dd8c13cc34abc7122487d6a775, type: 3}
+  sound_tail: {fileID: 8300000, guid: d71191bd28e79b84083406a9478c7876, type: 3}
+  sound_BoxMove: {fileID: 8300000, guid: 2b23d7b4558096c4fab6b27c1294a81f, type: 3}
+  sound_stone:
+  - {fileID: 8300000, guid: 04e912186fd43c040b04077dd271d911, type: 3}
+  - {fileID: 8300000, guid: 9d092273e84cbe842adf48494ac8787e, type: 3}
+  - {fileID: 8300000, guid: 6d3c749e162509b4dab0080673193317, type: 3}
+  sound_walk: {fileID: 0}
+  sound_DialUp: {fileID: 8300000, guid: c5db4575dc55c744fbcc16def53f463e, type: 3}
+  sound_DialDown: {fileID: 8300000, guid: 97f5fad58c56ce44097540aa85a7946a, type: 3}
+  sound_Arrowbutton: {fileID: 8300000, guid: f067deac061cc414e9808f1c1cbdac93, type: 3}
+  sound_button: {fileID: 8300000, guid: 97f5fad58c56ce44097540aa85a7946a, type: 3}
+  sound_Click: {fileID: 8300000, guid: 7ff27e18828643c44af7c02eb6df46c6, type: 3}
+  sound_Drag: {fileID: 8300000, guid: de98812835a82444fa10af93db813838, type: 3}
+  sound_Drop: {fileID: 8300000, guid: 905c6ad5c4ba1f04aacb42db5e056b08, type: 3}
+  sound_Touch: {fileID: 8300000, guid: fcc60ac773044034c9165a86cf79c12b, type: 3}
